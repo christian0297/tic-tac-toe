@@ -76,4 +76,14 @@ h1 {
   background: #085274;
 }
 
+@media only screen and (max-width: 299px) {
+  .container {
+    font-size: 25px;
+  }
+  .container .cell {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
