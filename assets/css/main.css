@@ -58,6 +58,9 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
+.container .cell:hover, .container .cell:focus {
+  background-color: #085274;
+}
 
 #reset {
   margin-top: 20px;
@@ -69,7 +72,7 @@ h1 {
   cursor: pointer;
   font-size: 20px;
 }
-#reset:hover {
+#reset:hover, #reset:focus {
   background: #085274;
 }
 

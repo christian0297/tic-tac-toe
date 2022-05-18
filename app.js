@@ -72,16 +72,27 @@ window.addEventListener('DOMContentLoaded', () => {
             
     }
 
+    function turn(ev){
+        ev.innerText = turnPlayer;
+        ev.style.pointerEvents="none";
+               
+        if(numberTurns >= 5)
+            checkWinner();
+
+        changeTurn();
+    }
+
     for(i=0; i<cells.length; i++){
         cells[i].addEventListener("click", function() {
-               this.innerText = turnPlayer;
-               this.style.pointerEvents="none";
-               
-                if(numberTurns >= 5)
-                    checkWinner();
-
-                changeTurn();
+            turn(this);
         });
+
+        cells[i].addEventListener("keypress", function(event) {
+            if (event.key === "Enter"){
+                turn(this);
+            }
+        });
+
     }
 
     reset.addEventListener("click", ()=>{

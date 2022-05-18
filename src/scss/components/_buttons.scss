@@ -10,7 +10,7 @@
     cursor: pointer;
     font-size: 20px;
 
-    &:hover{
+    &:hover, &:focus{
         background: $buttons-color-hover;
     }
 }
