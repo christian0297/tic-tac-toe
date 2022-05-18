@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #218ec0;
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.turn {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.turn span {
+  color: #fff;
+}
+
+.container {
+  font-size: 50px;
+  color: #fff;
+}
+
+.winner {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container .cell {
+  border: 1px solid #fff;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #0e6b96;
+  cursor: pointer;
+  font-size: 20px;
+}
+#reset:hover {
+  background: #085274;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.container{
+    @include create-table($max-width-table);
+    margin: 0 auto;
+
+    .cell{
+        border: 1px solid $secondary-color;
+        @include cell($max-dimension-cell);
+    }
+}

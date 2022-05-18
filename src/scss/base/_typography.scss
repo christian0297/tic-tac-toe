@@ -1,0 +1,27 @@
+@import "variables";
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.turn{
+    margin-bottom: $separator;
+    font-size: 30px;
+    font-weight: 600;
+
+    span{
+        color: $secondary-color;
+    }
+}
+
+.container{
+    font-size: 50px;
+    color: $secondary-color;
+}
+
+.winner{
+    margin-top: $separator;
+    font-size: 30px;
+    font-weight: 600;
+}

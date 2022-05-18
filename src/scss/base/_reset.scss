@@ -1,0 +1,20 @@
+@import "variables";
+
+html{
+    box-sizing: border-box;
+    font-size: $font-size-html;
+    font-family: $font-family;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: $primary-color;
+    height: 100%;
+    text-align: center;
+}

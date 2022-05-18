@@ -1,0 +1,16 @@
+
+@mixin create-table($max-width){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    max-width: $max-width;
+}
+
+@mixin cell($max-dimension-cell){
+        min-width: $max-dimension-cell;
+        min-height: $max-dimension-cell;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}

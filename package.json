@@ -1,0 +1,16 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch src/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/scss:assets/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}

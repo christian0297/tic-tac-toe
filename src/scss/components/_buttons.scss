@@ -1,0 +1,16 @@
+@import "../base/variables";
+
+#reset{
+    margin-top: $separator;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
+    background: $buttons-color;
+    cursor: pointer;
+    font-size: 20px;
+
+    &:hover{
+        background: $buttons-color-hover;
+    }
+}
