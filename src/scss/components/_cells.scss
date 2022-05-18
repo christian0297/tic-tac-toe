@@ -9,7 +9,7 @@
         border: 1px solid $secondary-color;
         @include cell($max-dimension-cell);
 
-        &:hover, &:focus{
+        &:hover{
             background-color: $buttons-color-hover;
         }
     }

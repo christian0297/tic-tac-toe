@@ -58,7 +58,7 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
-.container .cell:hover, .container .cell:focus {
+.container .cell:hover {
   background-color: #085274;
 }
 
